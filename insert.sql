@@ -9,3 +9,12 @@ values (?,?);
 
 insert into carrinho (id_produto, id_venda, quantidade)
 values (?, ?, ?);
+
+insert into clientes (nome_cliente, cpf_cliente)
+values (?, ?);
+
+insert into promocoes (desconto,data_inicio,data_termino)
+values (?, ?, ?);
+
+insert into produtos_promocao (id_produto,id_promocao)
+values (?, ?);
