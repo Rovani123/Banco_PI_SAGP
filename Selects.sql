@@ -12,6 +12,8 @@ select * from clientes where nome_cliente = ? and cpf_cliente = ?;
 
 select * from promocoes;
 
+select * from produtos_promocao;
+
 
 select * from carrinho as c 
 inner join vendas as v on v.id_venda = c.id_venda
