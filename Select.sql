@@ -4,6 +4,7 @@ select * from produtos;
 select ? from produtos where ?;
 
 select * from vendas;
+select ? from vendas ?;
 
 select * from carrinho;
 select ? from carrinho where ?;
