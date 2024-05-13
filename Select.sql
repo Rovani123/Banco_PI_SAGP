@@ -5,6 +5,7 @@ select * from produtos;
 select * from vendas;
 
 select * from carrinho;
+select ? from carrinho where ?;
 
 select * from clientes;
 
