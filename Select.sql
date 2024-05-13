@@ -1,6 +1,7 @@
 select * from funcionarios;
 
 select * from produtos;
+select ? from produtos where ?;
 
 select * from vendas;
 
