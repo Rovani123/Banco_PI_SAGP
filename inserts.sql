@@ -4,6 +4,11 @@ values (?, ?, ?);
 insert into produtos (nome_produto, preco, quantidade_estoque, categoria)
 values (?, ?, ?, ?);
 
+insert into produtos (nome_produto, preco, quantidade_estoque, categoria)
+values ("Coxinha",5 ,10 ,"salgados"),
+("Pastel de carne",6,10,"salgados"),
+("Pastel de pizza",6,10,"salgados");
+
 insert into vendas (id_funcionario,metodo_pagamento)
 values (?,?);
 
