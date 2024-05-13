@@ -10,6 +10,9 @@ UPDATE produto SET nome_produto = 'pastel de carne', preco= 7.99, quantidade_est
 UPDATE cliente SET nome_cliente = ?, cpf_cliente = ? WHERE IS ?; 
 UPDATE cliente SET nome_cliente = 'Felipe', cpf_cliente = 10028936906 WHERE IS 1; 
 
+UPDATE carrinho SET id_produto = ?, id_venda = ?, quantidade = ? WHERE IS ?; 
+UPDATE carrinho SET id_produto = 3, id_venda = 3, quantidade = 1 WHERE IS 1; 
+
 UPDATE vendas SET id_funcionario = ?, id_cliente = ?, metodo_pagamento = ? WHERE IS ?;
 UPDATE vendas SET id_funcionario = 1, id_cliente = 1, metodo_pagamento = 'pix' WHERE IS 1;
 
