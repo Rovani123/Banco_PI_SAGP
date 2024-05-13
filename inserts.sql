@@ -8,7 +8,6 @@ values ("Lezio", "Lezion", "funcpadaria"),
 
 insert into produtos (nome_produto, preco, quantidade_estoque, categoria)
 values (?, ?, ?, ?);
-
 insert into produtos (nome_produto, preco, quantidade_estoque, categoria)
 values ("Coxinha",5 ,10 ,"salgados"),
 ("Pastel de carne",6,10,"salgados"),
@@ -34,6 +33,10 @@ values ('Paulo', 78546321459),
 
 insert into promocoes (desconto,data_inicio,data_termino)
 values (?, ?, ?);
+insert into promocoes (desconto, data_inicio, data_termino)
+values (0.6,"2024-01-01" , "2024-03-01"),
+(0.85,"2024-03-01" , "2024-05-01"),
+(0.7,"2024-04-11" , "2024-05-11");
 
 insert into produtos_promocao (id_produto,id_promocao)
 values (?, ?);
