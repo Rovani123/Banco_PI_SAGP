@@ -17,4 +17,4 @@ UPDATE promocoes SET desconto = ?, data_inicio= ?, data_termino = ? WHERE IS ?;
 UPDATE promocoes SET desconto = 20.0, data_inicio= 2024-05-13, data_termino = 2024-05-20  WHERE IS 1;
 
 UPDATE produto_promocoes SET id_produto = ?, id_promocao = ? WHERE IS ?;
-
+UPDATE produto_promocoes SET id_produto = 1, id_promocao = 1 WHERE IS 1;
