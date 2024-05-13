@@ -4,11 +4,13 @@ select * from funcionarios where usuario_funcionario = ? and senha = ?;
 select * from produtos;
 
 select * from vendas;
+select * from vendas as v 
+inner join funcionario as f on f.id_funcionario = v.id_funcionario
+inner join cliente as c on c.id_cliente = v.id_cliente;
 
 select * from carrinho;
 select * from carrinho as c 
 inner join produto as p on p.id_produto = c.id_produto
-
 inner join vendas as v on v.id_venda = c.id_venda;
 
 
