@@ -12,12 +12,12 @@ values ("Coxinha",5 ,10 ,"salgados"),
 ("Pastel de carne",6,10,"salgados"),
 ("Pastel de pizza",6,10,"salgados");
 
-insert into vendas (id_funcionario,metodo_pagamento)
-values (?,?),
-insert into vendas (id_funcionario,metodo_pagamento)
-values (1,"crédito"),
-(2,"débito"),
-(3,"pix"); 
+insert into vendas (id_funcionario,id_cliente,metodo_pagamento)
+values (?,?,?),
+insert into vendas (id_funcionario,id_cliente,metodo_pagamento)
+values (1,1,"crédito"),
+(2,2,"débito"),
+(3,2,"pix"); 
 
 insert into carrinho (id_produto, id_venda, quantidade)
 values (?, ?, ?);
