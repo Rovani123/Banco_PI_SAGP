@@ -6,6 +6,11 @@ select * from produtos;
 select * from vendas;
 
 select * from carrinho;
+select * from carrinho as c 
+inner join produto as p on p.id_produto = c.id_produto
+
+inner join vendas as v on v.id_venda = c.id_venda;
+
 
 select * from clientes;
 select * from clientes where nome_cliente = ? and cpf_cliente = ?;
