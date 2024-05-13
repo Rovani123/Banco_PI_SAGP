@@ -10,7 +10,6 @@ select * from carrinho;
 select * from clientes;
 select * from clientes where nome_cliente = ? and cpf_cliente = ?;
 
-
 select * from promocoes;
 
 select * from produtos_promocao;
