@@ -25,6 +25,9 @@ insert into carrinho (id_produto, id_venda, quantidade)
 values (?, ?, ?);
 
 insert into clientes (nome_cliente, cpf_cliente)
+values (?, ?);
+
+insert into clientes (nome_cliente, cpf_cliente)
 values ('Paulo', 78546321459),
 ('Felipe', 41223456714),
 ('Carlos', 84521687147);
