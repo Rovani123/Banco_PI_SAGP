@@ -1,6 +1,5 @@
 insert into funcionarios (nome_funcionario, usuario_funcionario, senha)
 values (?, ?, ?);
-
 insert into funcionarios (nome_funcionario, usuario_funcionario, senha)
 values ("Lezio", "Lezion", "funcpadaria"),
 ("Lucas", "Lucas_Ir", "funcpadria"),
@@ -25,7 +24,6 @@ values (?, ?, ?);
 
 insert into clientes (nome_cliente, cpf_cliente)
 values (?, ?);
-
 insert into clientes (nome_cliente, cpf_cliente)
 values ('Paulo', 78546321459),
 ('Felipe', 41223456714),
@@ -40,3 +38,7 @@ values (0.6,"2024-01-01" , "2024-03-01"),
 
 insert into produtos_promocao (id_produto,id_promocao)
 values (?, ?);
+insert into produtos_promocao (id_produto,id_promocao)
+values (1,1),
+(2,2),
+(3,3);
