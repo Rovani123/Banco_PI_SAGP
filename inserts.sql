@@ -21,6 +21,10 @@ values (1,"crédito"),
 
 insert into carrinho (id_produto, id_venda, quantidade)
 values (?, ?, ?);
+insert into carrinho (id_produto, id_venda, quantidade)
+values (1, 1, 3),
+(2, 2, 4)
+(3, 3, 1);
 
 insert into clientes (nome_cliente, cpf_cliente)
 values (?, ?);
