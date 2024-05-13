@@ -29,9 +29,9 @@ values (1, 1, 3),
 insert into clientes (nome_cliente, cpf_cliente)
 values (?, ?);
 insert into clientes (nome_cliente, cpf_cliente)
-values ('Paulo', 78546321459),
-('Felipe', 41223456714),
-('Carlos', 84521687147);
+values ('Paulo', 546321459),
+('Felipe', 223456714),
+('Carlos', 521687147);
 
 insert into promocoes (desconto,data_inicio,data_termino)
 values (?, ?, ?);
