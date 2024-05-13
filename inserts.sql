@@ -1,5 +1,7 @@
 insert into funcionarios (nome_funcionario, usuario_funcionario, senha)
-values (?, ?, ?);
+values ("Lezio", "Lezion", "funcpadaria"),
+("Lucas", "Lucas_Ir", "funcpadria"),
+("Jessus", "Cristo", "funcpadaria");
 
 insert into produtos (nome_produto, preco, quantidade_estoque, categoria)
 values (?, ?, ?, ?);
