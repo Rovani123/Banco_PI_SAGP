@@ -14,3 +14,4 @@ select * from clientes;
 select * from promocoes;
 
 select * from produtos_promocao;
+select ? from produtos_promocao ?;
