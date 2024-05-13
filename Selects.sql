@@ -18,8 +18,9 @@ select * from clientes;
 select * from clientes where nome_cliente = ? and cpf_cliente = ?;
 
 select * from promocoes;
+
+
+select * from produtos_promocao;
 select * from produtos_promocao as pp 
 inner join produto as p on p.id_produto = pp.id_produto
 inner join promocao as pr on pr.id_promocao = pp.id_cliente;
-
-select * from produtos_promocao;
