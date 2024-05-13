@@ -46,3 +46,9 @@ insert into produtos_promocao (id_produto,id_promocao)
 values (1,1),
 (2,2),
 (3,3);
+
+select * from carrinho as c 
+inner join vendas as v on v.id_venda = c.id_venda
+inner join produtos as p on c.id_produto = p.id_produto
+inner join funcionarios as f on f.id_funcionario = v.id_funcionario
+inner join clientes as cli on cli.id_cliente = v.id_cliente;
