@@ -1,4 +1,7 @@
 insert into funcionarios (nome_funcionario, usuario_funcionario, senha)
+values (?, ?, ?);
+
+insert into funcionarios (nome_funcionario, usuario_funcionario, senha)
 values ("Lezio", "Lezion", "funcpadaria"),
 ("Lucas", "Lucas_Ir", "funcpadria"),
 ("Jessus", "Cristo", "funcpadaria");
