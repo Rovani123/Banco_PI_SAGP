@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS Produtos
 (
     id_produto INT NOT NULL AUTO_INCREMENT,
     nome_produto VARCHAR(20) NOT NULL,
-    preco DECIMAL(2) NOT NULL,
+    preco DECIMAL(4,2) NOT NULL,
     quantidade_estoque INT NOT NULL,
     categoria VARCHAR(12) NOT NULL,
     PRIMARY KEY (id_produto)
@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS Produtos
 CREATE TABLE IF NOT EXISTS Promocoes 
 (
     id_promocao INT NOT NULL AUTO_INCREMENT,
-    desconto DECIMAL(2) NOT NULL,
+    desconto DECIMAL(4.2) NOT NULL,
     data_inicio DATE NOT NULL,
     data_termino DATE NOT NULL,
     PRIMARY KEY (id_promocao)
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS Clientes
 (
     id_cliente INT NOT NULL AUTO_INCREMENT,
     nome_cliente VARCHAR(45) NOT NULL,
-    cpf_cliente INT NOT NULL,
+    cpf_cliente BIGINT NOT NULL,
     PRIMARY KEY (id_cliente)
 );
 
