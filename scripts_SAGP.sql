@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS Produtos
 CREATE TABLE IF NOT EXISTS Promocoes 
 (
     id_promocao INT NOT NULL AUTO_INCREMENT,
-    desconto DECIMAL(4.2) NOT NULL,
+    desconto DECIMAL(4,2) NOT NULL,
     data_inicio DATE NOT NULL,
     data_termino DATE NOT NULL,
     PRIMARY KEY (id_promocao)
